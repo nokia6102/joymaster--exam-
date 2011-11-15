@@ -36,10 +36,10 @@ int main (int argc, const char * argv[])
   NSLog(@"Hello, World!");
   int i;
   for(i=0 ; i<=100 ;i++)
-    if (x2(i)==0) NSLog(@"%d is 2x",i);
+    if (x2(i)==0) NSLog(@"%d is 2的倍數",i);
 
   for(i=0 ; i<=100 ;i++)
-    if (gs(i)==2) NSLog(@"%d is Odd.",i);
+    if (gs(i)==2) NSLog(@"%d is 質數.",i);
 
   
   [pool drain];
